@@ -150,6 +150,10 @@
 .auth__form {
   margin-left: 81px;
   width: 306px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
 }
 
 .auth__form_title {
@@ -190,4 +194,25 @@
     color: #ffffff;
     text-decoration: underline;
   }
+}
+
+.auth__policy {
+  margin-top: auto;
+}
+
+.auth__policy_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.auth__policy_copyright {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ACC4FF;
 }
