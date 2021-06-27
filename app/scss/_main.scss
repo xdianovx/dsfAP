@@ -4,10 +4,21 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1210px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -45,6 +56,11 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+  display: block;
+  &:hover {
+    text-decoration: none;
+    //color: inherit !important;
+  }
 }
 
 img {
