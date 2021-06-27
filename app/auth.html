@@ -49,8 +49,11 @@
         </h2>
 
         <form action="#" method="post">
-          <input class="auth-input mb-4" type="text" placeholder="Логин">
+          <input class="auth-input mb-4 error" type="text" placeholder="Логин">
           <input class="auth-input" type="password" placeholder="Пароль">
+          <div class="auth-input__error">
+            Неверный логин или пароль
+          </div>
           <div class="d-flex mt-5 justify-content-between align-items-center">
             <button class="btn auth-btn">Войти</button>
             <a class="form-link" href="#">Забыли пароль?</a>
